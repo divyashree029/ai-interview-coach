@@ -1,0 +1,16 @@
+import sys
+print('start', flush=True)
+import flask
+print('flask', flush=True)
+import bcrypt
+print('bcrypt', flush=True)
+import google.cloud.bigquery
+print('bq', flush=True)
+import google.cloud.storage
+print('storage', flush=True)
+import google.generativeai
+print('genai', flush=True)
+import pypdf
+print('pypdf', flush=True)
+import flask_sqlalchemy
+print('sqlalchemy', flush=True)
